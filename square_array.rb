@@ -5,5 +5,5 @@ def square_array(array)
   # squares
   
   # alternative approach using '.collect' method
-  return array.collect { |num| num * num }
+  array.collect { |num| num * num }
 end
